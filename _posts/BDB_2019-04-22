@@ -1,0 +1,9 @@
+---
+title: "Berkeley DB JE(Java Edition)으로 Database 구현하기"
+date: 2019-04-22 01:04:45 -0400
+categories: BerkelyDB BDB Java Database API
+---
+
+2019년 1학기 데이터베이스 수업에서
+BerkeleyDB로 데이터베이스를 구현하게 되었다.
+너무 어렵지만... ㅠㅠ 튜토리얼 가이드를 천천히 읽으면서 완성을 해볼것이다!!
