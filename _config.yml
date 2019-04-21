@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "sunrise" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "ROSELIDEV PAGE"
+title                    : "ROSELIDEV"
 title_separator          : "-"
 name                     : "Yewon Rose Li"
 description              : "this is my dev-journal page :)"
