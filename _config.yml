@@ -108,7 +108,10 @@ analytics:
 author:
   name             : "Yewon Rose Li"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Welcome to my dev-journal!  This page is _**still in construction.**_  This page will grow AS I GROW!   Hope you find anything helpful :)"
+  bio              : "Welcome to my dev-journal!
+  This page is *still in construction.*  
+  This page will grow AS I GROW!   
+  Hope you find anything helpful :)"
   location         : "Seoul, South Korea"
   email            :
   links:
@@ -142,10 +145,10 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "github.com/roeslidev"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
-      url: "github.com/roselidev"
+      # url: 
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       # url:
@@ -290,6 +293,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
