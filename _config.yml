@@ -29,7 +29,7 @@ masthead_title           : # overrides the website title displayed in the masthe
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : "facebook" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -37,34 +37,34 @@ comments:
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    num_posts            : 5 # 5 (default)
+    colorscheme          : "light" # "light" (default), "dark"
   utterances:
     theme                : # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
 staticman:
-  allowedFields          : # ['name', 'email', 'url', 'message']
-  branch                 : # "master"
-  commitMessage          : # "New comment by {fields.name}"
-  filename               : # comment-{@timestamp}
-  format                 : # "yml"
-  moderation             : # true
-  path                   : # "/_data/comments/{options.slug}" (default)
-  requiredFields         : # ['name', 'email', 'message']
+  allowedFields          : #['name', 'email', 'url', 'message']
+  branch                 : #"master"
+  commitMessage          : #"New comment by {fields.name}"
+  filename               : #comment-{@timestamp}
+  format                 : #"yml"
+  moderation             : #true
+  path                   : #"/_data/comments/{options.slug}" (default)
+  requiredFields         : #['name', 'email', 'message']
   transforms:
-    email                : # "md5"
+    email                : #"md5"
   generatedFields:
     date:
-      type               : # "date"
+      type               : #"date"
       options:
-        format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+        format           : #"iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
   endpoint               : # URL of your own deployment with trailing slash, will fallback to the public instance
 reCaptcha:
   siteKey                :
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
+search                   : true # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "Yewon Rose Li"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Welcome to my dev-journal! \nThis page is still in construction.\nThis page will grow AS I GROW! \nHope you find anything helpful :)"
+  bio              : "Welcome to my dev-journal!  This page is _**still in construction.**_  This page will grow AS I GROW!   Hope you find anything helpful :)"
   location         : "Seoul, South Korea"
   email            :
   links:
@@ -145,7 +145,7 @@ footer:
       # url:
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
-      # url:
+      url: "github.com/roselidev"
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       # url:
