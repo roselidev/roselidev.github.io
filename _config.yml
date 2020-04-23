@@ -108,16 +108,13 @@ analytics:
 author:
   name             : "Yewon Rose Li"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Welcome to my dev-journal!
-  This page is *still in construction.*  
-  This page will grow AS I GROW!   
-  Hope you find anything helpful :)"
+  bio              : "공사중"
   location         : "Seoul, South Korea"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:lyo9608@gmail.com
+      #url: mailto:mail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -126,13 +123,13 @@ author:
       # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://facebook.com/lyo9608"
+      #url: "https://facebook.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/roselidev"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/lyo9608"
+      #url: "https://instagram.com/lyo9608"
 
 # Site Footer
 footer:
@@ -145,7 +142,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "github.com/roeslidev"
+      url: "https://github.com/roeslidev"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url: 
